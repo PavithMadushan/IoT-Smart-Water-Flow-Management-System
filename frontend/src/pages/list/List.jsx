@@ -1,12 +1,12 @@
 import React from 'react';
-import "./home.scss";
+import "./list.scss";
 
 
-const Home=()=>{
+const List=()=>{
 
     return(
         <div>
-            Home
+            List
         </div>
         
     );
