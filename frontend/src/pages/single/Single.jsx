@@ -6,7 +6,7 @@ const Single=()=>{
 
     return(
         <div>
-            List
+            Single
         </div>
         
     );

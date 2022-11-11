@@ -6,7 +6,7 @@ const Login=()=>{
 
     return(
         <div>
-            List
+            Login
         </div>
         
     );

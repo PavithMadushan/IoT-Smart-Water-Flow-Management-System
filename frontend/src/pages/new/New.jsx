@@ -6,7 +6,7 @@ const New=()=>{
 
     return(
         <div>
-            List
+            New
         </div>
         
     );
