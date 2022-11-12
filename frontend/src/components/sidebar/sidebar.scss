@@ -31,5 +31,52 @@
             margin:0;
             padding:0;
         }
+
+        li{
+            display:flex;
+            align-items:center;
+            padding: 25px;
+            cursor:pointer;
+
+            &:hover{
+                background-color: aquamarine;
+            }
+
+            .icon{
+                font-size:18px;
+                color:#ffad39;
+            }
+            span{
+                font-size:13px;
+                font-weight:600;
+                color:brown;
+                margin-left:10px;
+            }
+        }
+    }
+
+    .bottom{
+        display:flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption{
+            width: 20px;
+            height:20px;
+            border-radius: 5px;
+            border:1px solid red;
+            cursor:pointer;
+
+            &:nth-child(1){
+                background-color: white;
+            }
+            &:nth-child(2){
+                background-color: dark
+                ;
+            }
+            &:nth-child(3){
+                background-color: darkblue;
+            }
+        }
     }
 }
