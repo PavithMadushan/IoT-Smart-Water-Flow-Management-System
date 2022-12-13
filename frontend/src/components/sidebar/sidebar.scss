@@ -35,11 +35,11 @@
         li{
             display:flex;
             align-items:center;
-            padding: 25px;
+            padding: 21px;
             cursor:pointer;
 
             &:hover{
-                background-color: aquamarine;
+                background-color: rgb(131, 198, 247);
             }
 
             .icon{
@@ -66,6 +66,7 @@
             border-radius: 5px;
             border:1px solid red;
             cursor:pointer;
+            margin: 10px;
 
             &:nth-child(1){
                 background-color: white;

@@ -6,13 +6,17 @@ import RouterIcon from '@mui/icons-material/Router';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
+import PaymentsIcon from '@mui/icons-material/Payments';
+import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
+import SettingsInputComponentIcon from '@mui/icons-material/SettingsInputComponent';
+
 
 const Sidebar=()=>{
 
     return(
         <div className="sidebar">
             <div className="top">
-                <span className="logo">lamadmin</span>
+                <span className="logo">Aqua App</span>
             </div>
             <hr/>
             <div className="center">
@@ -27,23 +31,27 @@ const Sidebar=()=>{
                     </li>
                     <li>
                         <CalculateIcon/>
-                        <span>Calculator</span>
+                        <span>Complaints</span>
                     </li>
                     <li>
                         <RouterIcon/>
+                        <span>Live Meter</span>
+                    </li>
+                    <li>
+                        <SettingsInputComponentIcon/>
                         <span>Devices</span>
+                    </li>
+                    <li>
+                        <PaymentsIcon/>
+                        <span>Payments</span>
+                    </li>
+                    <li>
+                        <SubscriptionsIcon/>
+                        <span>Subscriptions</span>
                     </li>
                     <li>
                         <SettingsIcon/>
                         <span>Settings</span>
-                    </li>
-                    <li>
-                        <AccountCircleIcon/>
-                        <span>Profile</span>
-                    </li>
-                    <li>
-                        <LogoutIcon/>
-                        <span>Logout</span>
                     </li>
                 </ul>
             </div>
